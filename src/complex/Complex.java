@@ -14,4 +14,9 @@ public class Complex {
     public double imag() {
         return 0;
     }
+
+    // TODO fill
+    public double abs() {
+        return 0;
+    }
 }
