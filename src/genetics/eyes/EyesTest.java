@@ -1,7 +1,15 @@
 package genetics.eyes;
 
-import org.junit.Test;
-import utils.TestUtils;
+import static genetics.eyes.Color.BROWN;
+import static genetics.eyes.Color.DARK_GREEN;
+import static genetics.eyes.Color.LIGHT_GREEN;
+import static genetics.eyes.Genotype.DarkAllele.DARK;
+import static genetics.eyes.Genotype.DarkAllele.NONDARK;
+import static genetics.eyes.Genotype.LightAllele.BLUE;
+import static genetics.eyes.Genotype.LightAllele.GREEN;
+import static java.util.Arrays.asList;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -10,15 +18,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static genetics.eyes.Color.*;
-import static genetics.eyes.Genotype.DarkAllele.DARK;
-import static genetics.eyes.Genotype.DarkAllele.NONDARK;
-import static genetics.eyes.Genotype.LightAllele.BLUE;
-import static genetics.eyes.Genotype.LightAllele.GREEN;
-import static java.util.Arrays.asList;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+
+import utils.TestUtils;
 
 /**
  * Created by losseh on 16.08.17.
