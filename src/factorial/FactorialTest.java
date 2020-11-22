@@ -1,9 +1,9 @@
 package factorial;
 
-import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 /**
  * Created by losseh on 16.08.17.
